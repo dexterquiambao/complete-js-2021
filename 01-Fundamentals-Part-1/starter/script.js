@@ -1,9 +1,10 @@
 let js = 'amazing';
 console.log(40 + 8 + 23 -10);
 
-let firstName = 'Matilda';
+let firstName = 'Dexter';
 console.log(firstName);
 
+// Variable lecture challenge
 let country = 'Philippines';
 let continent = 'South East Asia';
 let population = '30 million';
