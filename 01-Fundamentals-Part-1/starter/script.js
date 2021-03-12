@@ -133,19 +133,61 @@ m tall.
 m tall.
 */
 
-const markHeight = 1.69;
-const markMass = 78;
-const markBMI = markMass / markHeight ** 2; // (height * height)
-console.log(markBMI); // answer is 27.309968138370508
+// const markHeight = 1.69;
+// const markMass = 78;
+// const markBMI = markMass / markHeight ** 2; // (height * height)
+// console.log(markBMI); // answer is 27.309968138370508
 
-const johnHeight = 1.88;
-const johnMass = 92;
-const johnBMI = johnMass / (johnHeight * johnHeight);
-console.log(johnBMI); // answer is 26.029877772747852
+// const johnHeight = 1.88;
+// const johnMass = 92;
+// const johnBMI = johnMass / (johnHeight * johnHeight);
+// console.log(johnBMI); // answer is 26.029877772747852
 
-console.log(markBMI, johnBMI);
+// console.log(markBMI, johnBMI);
 
-const markHigherBMI = markBMI > johnBMI;
-console.log(markHigherBMI); // Should equals True
+// const markHigherBMI = markBMI > johnBMI;
+// console.log(markHigherBMI); // Should equals True
 
-console.log(markBMI, johnBMI, markHigherBMI);
+// console.log(markBMI, johnBMI, markHigherBMI);
+
+// const firstName = 'Dexter';
+// const job = 'Developer';
+// const birthYear = 1987;
+// const year = 2021;
+
+// const dexter = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '.';
+
+// console.log(dexter);
+
+// const dexterNew = `I'm ${firstName}, ${year - birthYear} year old ${job}.`;
+
+// console.log(dexterNew);
+// console.log(`String with\n\
+//   multiple\n\
+//   lines`);
+// console.log(`String with
+//   multiple
+//   lines`);
+
+// If , Else Statements lecture
+// const age = 19;
+const age = 16
+const isOldEnough = age >= 18;
+
+if(isOldEnough) {
+  console.log(`Paul can start driving 🤣`);
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sorry, Paul is not old enough yet 😤, he needs to wait ${yearsLeft} more years.`);
+}
+
+const birthYear = 1987;
+let century;
+
+if(birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
