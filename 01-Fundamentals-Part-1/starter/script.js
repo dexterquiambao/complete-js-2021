@@ -29,3 +29,66 @@
 // const spokenLanguage = 'English';
 // spokenLanguage = 'Spanish'
 // script.js:30 Uncaught TypeError: Assignment to constant variable.
+
+// Basic Operators Lecture
+// const ageDexter = 2021 - 1987;
+// const ageSarah = 2021 - 1984;
+// console.log(ageDexter, ageSarah);
+
+// const now = 2021
+// const ageDexter = now - 1987;
+// const ageSarah = now - 1984;
+// console.log(ageDexter, ageSarah);
+
+// console.log(ageDexter * 2, ageDexter / 10, 2 ** 3)
+// // 2 ** 3 means 2 to the power of 3 = 2*2*2
+
+// const firstName = 'Dexter';
+// const lastName = 'Quiambao';
+// // Basic concatenation
+// console.log(firstName + ' ' + lastName);
+
+// let x = 10 + 5;
+// console.log(x);
+
+// // Assignment Operators
+// x += 10; // x = x + 10 = 25
+// console.log(x);
+
+// x *= 4; // x = x * 4 = 100
+// console.log(x);
+
+// x ++; // x = x + 1
+// console.log(x);
+
+// x --; // x = x - 1
+// console.log(x);
+
+// // Comparison Operators
+// console.log(ageDexter > ageSarah);
+// console.log(ageSarah > ageDexter);
+// // > , < , >= , <=
+// console.log(ageDexter >= 33);
+// console.log(ageDexter <= 32);
+
+// const isFullAge = ageDexter >= 33;
+// console.log(now - 1991 > now - 2018);
+
+//Basic Operators Lecture Challenge
+
+let philippinesPopulation = 15000000;
+console.log(philippinesPopulation / 2);
+philippinesPopulation ++;
+console.log(philippinesPopulation);
+
+let finlandPopulation = 6000000;
+console.log(philippinesPopulation > finlandPopulation);
+
+let averagePopulation = 33000000;
+console.log(philippinesPopulation < averagePopulation);
+
+const country = 'Philippines';
+const continent = 'Asia';
+const spokenLanguage = 'Tagalog';
+
+console.log(country + ' is in ' + continent + ', and its ' + philippinesPopulation + ' people speak ' + spokenLanguage);
