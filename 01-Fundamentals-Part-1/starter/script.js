@@ -95,23 +95,23 @@
 
 // Operator Precedance - MDN Operator Precedance
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
-const now = 2021
-const ageDexter = now - 1987;
-const ageSarah = now - 1984;
+// const now = 2021
+// const ageDexter = now - 1987;
+// const ageSarah = now - 1984;
 
 
-console.log(now - 1991 > now - 2018);
+// console.log(now - 1991 > now - 2018);
 
-console.log(20 - 10 - 5);
+// console.log(20 - 10 - 5);
 
-let x, y;
-x = y = 25 - 10 - 5;
-console.log(x, y); // Will equals 10 -> x = y = 10 -> right to left
+// let x, y;
+// x = y = 25 - 10 - 5;
+// console.log(x, y); // Will equals 10 -> x = y = 10 -> right to left
 
-// const averageAge = ageDexter + ageSarah / 2;
-const averageAge = (ageDexter + ageSarah) / 2; // Using () operator precedance to calculate the correct average
-console.log(ageDexter, ageSarah);
-console.log(averageAge);
+// // const averageAge = ageDexter + ageSarah / 2;
+// const averageAge = (ageDexter + ageSarah) / 2; // Using () operator precedance to calculate the correct average
+// console.log(ageDexter, ageSarah);
+// console.log(averageAge);
 
 
 
