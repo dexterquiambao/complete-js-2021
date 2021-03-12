@@ -233,5 +233,5 @@ console.log(markBMI, johnBMI, markHigherBMI);
 if (markBMI > johnBMI) {
   console.log(`Mark's BMI(${markBMI.toFixed(2)}) is higher than John's(${johnBMI.toFixed(2)}) by ${(markBMI - johnBMI).toFixed(2)}!`);
 } else {
-  console.log(`John's BMI(${johnBMI}) is higher than Mark's(${markBMI})!`);
+  console.log(`John's BMI(${johnBMI}) is lower than Mark's(${markBMI})!`);
 }
