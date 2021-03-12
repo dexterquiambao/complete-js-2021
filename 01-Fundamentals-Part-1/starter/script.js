@@ -213,7 +213,8 @@ is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark
 BMI (28.3) is higher than John's (23.9)!"
 Hint: Use an if/else statement*/
 
-const markHeight = 1.69;
+// const markHeight = 1.69;
+const markHeight = 1.89;
 const markMass = 78;
 let markBMI = markMass / markHeight ** 2; // (height * height)
 console.log(markBMI); // answer is 27.309968138370508
@@ -233,5 +234,5 @@ console.log(markBMI, johnBMI, markHigherBMI);
 if (markBMI > johnBMI) {
   console.log(`Mark's BMI(${markBMI.toFixed(2)}) is higher than John's(${johnBMI.toFixed(2)}) by ${(markBMI - johnBMI).toFixed(2)}!`);
 } else {
-  console.log(`John's BMI(${johnBMI}) is lower than Mark's(${markBMI})!`);
+  console.log(`John's BMI(${johnBMI.toFixed(2)}) is lower than Mark's(${markBMI.toFixed(2)})!`);
 }
