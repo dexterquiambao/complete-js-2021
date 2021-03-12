@@ -171,23 +171,40 @@ m tall.
 
 // If , Else Statements lecture
 // const age = 19;
-const age = 16
-const isOldEnough = age >= 18;
+// const age = 16
+// const isOldEnough = age >= 18;
 
-if(isOldEnough) {
-  console.log(`Paul can start driving 🤣`);
+// if(isOldEnough) {
+//   console.log(`Paul can start driving 🤣`);
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Sorry, Paul is not old enough yet 😤, he needs to wait ${yearsLeft} more years.`);
+// }
+
+// const birthYear = 1987;
+// let century;
+
+// if(birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+
+// console.log(century);
+
+// const philippinesPopulation = 15000000;
+const philippinesPopulation = 45000000;
+const country = 'Philippines';
+const averagePopulation = 33000000;
+
+if (philippinesPopulation > averagePopulation) {
+  console.log(`${country} population is above average.`);
 } else {
-  const yearsLeft = 18 - age;
-  console.log(`Sorry, Paul is not old enough yet 😤, he needs to wait ${yearsLeft} more years.`);
+  console.log(`${country} is ${averagePopulation - philippinesPopulation} below average`);
 }
 
-const birthYear = 1987;
-let century;
 
-if(birthYear <= 2000) {
-  century = 20;
-} else {
-  century = 21;
-}
 
-console.log(century);
+
+
+
