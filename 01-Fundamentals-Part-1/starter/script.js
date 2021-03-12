@@ -302,3 +302,35 @@ m tall.
 // console.log(Boolean('Jonas'));
 // console.log(Boolean({}));
 // console.log(Boolean(''));
+
+// Equality Operators
+
+// const age = 18;
+// if(age === 18) console.log('You just became an adult'); // strict equality operator. Doe NOT perform typer coercion. == DOES type coercion
+
+// const favourite = Number(prompt("What's your fav number?"));
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if(favourite == 23) {
+//   console.log('Nice, 23 is a great number');
+// } else if(favourite === 7){
+//   console.log('7 is also a great number!');
+// } else {
+//   console.log('Number is not 7 or 23');
+// }
+
+// if (favourite !== 23) console.log('Why not 23?'); // !== (strict) different operator
+
+// Equality Operators: == vs. ===
+let numNeighbours = Number(prompt('How many neighbour countries does your contry have?'));
+console.log(numNeighbours);
+
+if (numNeighbours === 1) {
+  console.log('Only 1 border!');
+} else if (numNeighbours === 0) {
+  console.log('No border');
+} else {
+  console.log('More than 1 border!');
+}
+
