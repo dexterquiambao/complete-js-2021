@@ -260,3 +260,32 @@ m tall.
 // } else {
 //   console.log(`John's BMI(${johnBMI}) is lower than Mark's(${markBMI})!`);
 // }
+
+// Type Conversion and Coercion Lecture
+
+// type conversion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(typeof Number(inputYear), typeof inputYear);
+console.log(Number(inputYear) + 18);
+
+
+console.log(Number('Jonas')); // gets Nan Not a Number in console
+console.log(typeof Nan);
+
+console.log(String(23), 23);
+console.log(typeof String(23), typeof 23);
+
+// type coercion
+console.log('I am ' + 23 + ' years old');
+console.log(typeof 'I am ' + typeof 23 + ' years old');
+console.log('23' - '10' - 3); // strings are coverted to numbers
+console.log('23' + '10' + 3); // strings are NOT coverted. PLUS operator does not work!
+console.log('23' / '2');
+console.log( '23' > '18');
+
+let n = '1' + 1; //converted to 11 NOT 2 because of the plus operator
+n = n - 1; // 11 - 1 = 10 because of the minus operator
+
+
+console.log(n);
