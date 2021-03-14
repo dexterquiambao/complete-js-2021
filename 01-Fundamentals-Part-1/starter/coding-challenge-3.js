@@ -73,20 +73,20 @@ Test data:
 
 // BONUS 2 using Data Bonus 2
 
-const dolphinsScoreAverage = (97 + 112 + 101) / 3;
-const koalasScoreAverage = (109 + 95 + 106) / 3;
+// const dolphinsScoreAverage = (97 + 112 + 101) / 3;
+// const koalasScoreAverage = (109 + 95 + 106) / 3;
 
-// const dolphinsScoreAverage = (80 + 112 + 101) / 3;
-// const koalasScoreAverage = (80 + 95 + 106) / 3; - TESTING Draw below 100
+// // const dolphinsScoreAverage = (80 + 112 + 101) / 3;
+// // const koalasScoreAverage = (80 + 95 + 106) / 3; - TESTING Draw below 100
 
-console.log(Number(dolphinsScoreAverage.toFixed(2)), Number(koalasScoreAverage.toFixed(2)));
+// console.log(Number(dolphinsScoreAverage.toFixed(2)), Number(koalasScoreAverage.toFixed(2)));
 
-if (dolphinsScoreAverage > koalasScoreAverage && dolphinsScoreAverage >= 100) {
-  console.log('Dolphins Win');
-} else if ( koalasScoreAverage > dolphinsScoreAverage && koalasScoreAverage >= 100) {
-  console.log('Koalas Win');
-} else if (dolphinsScoreAverage === koalasScoreAverage && dolphinsScoreAverage >= 100 && koalasScoreAverage >= 100) {
-  console.log('It was a draw');
-} else {
-  console.log('Neither Team Wins!');
-} // WORKING
+// if (dolphinsScoreAverage > koalasScoreAverage && dolphinsScoreAverage >= 100) {
+//   console.log('Dolphins Win');
+// } else if ( koalasScoreAverage > dolphinsScoreAverage && koalasScoreAverage >= 100) {
+//   console.log('Koalas Win');
+// } else if (dolphinsScoreAverage === koalasScoreAverage && dolphinsScoreAverage >= 100 && koalasScoreAverage >= 100) {
+//   console.log('It was a draw');
+// } else {
+//   console.log('Neither Team Wins!');
+// } // WORKING
