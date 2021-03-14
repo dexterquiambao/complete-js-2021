@@ -463,28 +463,32 @@ m tall.
 //     break;
 //  } // WORKING
 
-// The Conditional (Ternary) Operator
+// The Conditional (Ternary) Operator Lecture
 
-const age = 23;
-age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water');
+// const age = 23;
+// age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water');
 
-// Below is more commonly used
-const drink = age >= 18 ? 'wine' : 'water'; // expression that produces a value
-console.log(`I like to drink ${drink}`);
+// // Below is more commonly used
+// const drink = age >= 18 ? 'wine' : 'water'; // expression that produces a value
+// console.log(`I like to drink ${drink}`);
 
-// If written in an if/else statement without using ternary operator
-let drink2;
-if (age >= 18) {
-  drink2 = 'wine';
-} else {
-  drink2 = 'water';
-}
-console.log(`I like to drink ${drink}`);
+// // If written in an if/else statement without using ternary operator
+// let drink2;
+// if (age >= 18) {
+//   drink2 = 'wine';
+// } else {
+//   drink2 = 'water';
+// }
+// console.log(`I like to drink ${drink}`);
 
-//Inserting expression into template literal
-console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+// //Inserting expression into template literal
+// console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
 
+// The Conditional (Ternary) Operator Assignment
 
+const population = 22; // population in millions
+
+console.log(`Portugal's population is ${population < 33 ? 'below' : 'above'} average.`);
 
 
 
