@@ -439,36 +439,50 @@ m tall.
 
 // The Switch Statement lecture assignment
 
-const languageSpoken = 'Mandarin';
+// const languageSpoken = 'Mandarin';
 
-switch (languageSpoken) {
-  case 'Chinese':
-  case 'Mandarin':
-    console.log('MOST number of native speakers!');
-    break;
-  case 'Spanish':
-    console.log('2nd place in number of native speakers');
-    break;
-  case 'English':
-    console.log( '3rd place');
-    break;
-  case 'Hindi':
-    console.log('Number 4');
-    break;
-  case 'Arabic':
-    console.log('5th most spoken language');
-    break;
-  default:
-    console.log('Great language too :D');
-    break;
- } // WORKING
+// switch (languageSpoken) {
+//   case 'Chinese':
+//   case 'Mandarin':
+//     console.log('MOST number of native speakers!');
+//     break;
+//   case 'Spanish':
+//     console.log('2nd place in number of native speakers');
+//     break;
+//   case 'English':
+//     console.log( '3rd place');
+//     break;
+//   case 'Hindi':
+//     console.log('Number 4');
+//     break;
+//   case 'Arabic':
+//     console.log('5th most spoken language');
+//     break;
+//   default:
+//     console.log('Great language too :D');
+//     break;
+//  } // WORKING
 
+// The Conditional (Ternary) Operator
 
+const age = 23;
+age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water');
 
+// Below is more commonly used
+const drink = age >= 18 ? 'wine' : 'water'; // expression that produces a value
+console.log(`I like to drink ${drink}`);
 
+// If written in an if/else statement without using ternary operator
+let drink2;
+if (age >= 18) {
+  drink2 = 'wine';
+} else {
+  drink2 = 'water';
+}
+console.log(`I like to drink ${drink}`);
 
-
-
+//Inserting expression into template literal
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
 
 
 
