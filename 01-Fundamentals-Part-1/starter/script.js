@@ -323,14 +323,64 @@ m tall.
 // if (favourite !== 23) console.log('Why not 23?'); // !== (strict) different operator
 
 // Equality Operators: == vs. ===
-let numNeighbours = Number(prompt('How many neighbour countries does your contry have?'));
-console.log(numNeighbours);
+// let numNeighbours = Number(prompt('How many neighbour countries does your contry have?'));
+// console.log(numNeighbours);
 
-if (numNeighbours === 1) {
-  console.log('Only 1 border!');
-} else if (numNeighbours === 0) {
-  console.log('No border');
+// if (numNeighbours === 1) {
+//   console.log('Only 1 border!');
+// } else if (numNeighbours === 0) {
+//   console.log('No border');
+// } else {
+//   console.log('More than 1 border!');
+// }
+
+// Logical Operators Lecture
+
+const hasDriversLicense = true; // A
+const hasGoodVision = false; // B
+
+console.log(hasDriversLicense && hasGoodVision); // false
+console.log(hasDriversLicense || hasGoodVision); // true
+console.log(!hasDriversLicense); // false
+
+// const shouldDrive = hasDriversLicense && hasGoodVision;
+
+// if(hasDriversLicense && hasGoodVision) { // condition should be in statement or block
+//   console.log('Sarah is able to drive');
+// } else {
+//   console.log('Someone else should drive!');
+// } // false
+
+const isTired = false; // C
+console.log(hasDriversLicense || hasGoodVision || isTired);
+
+
+if(hasDriversLicense && hasGoodVision && !isTired) { // inverted isTired to false
+  console.log('Sarah is able to drive');
 } else {
-  console.log('More than 1 border!');
+  console.log('Someone else should drive!');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
