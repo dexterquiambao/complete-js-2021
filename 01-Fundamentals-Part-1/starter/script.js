@@ -336,12 +336,12 @@ m tall.
 
 // Logical Operators Lecture
 
-const hasDriversLicense = true; // A
-const hasGoodVision = false; // B
+// const hasDriversLicense = true; // A
+// const hasGoodVision = false; // B
 
-console.log(hasDriversLicense && hasGoodVision); // false
-console.log(hasDriversLicense || hasGoodVision); // true
-console.log(!hasDriversLicense); // false
+// console.log(hasDriversLicense && hasGoodVision); // false
+// console.log(hasDriversLicense || hasGoodVision); // true
+// console.log(!hasDriversLicense); // false
 
 // const shouldDrive = hasDriversLicense && hasGoodVision;
 
@@ -351,21 +351,43 @@ console.log(!hasDriversLicense); // false
 //   console.log('Someone else should drive!');
 // } // false
 
-const isTired = false; // C
-console.log(hasDriversLicense || hasGoodVision || isTired);
+// const isTired = false; // C
+// console.log(hasDriversLicense || hasGoodVision || isTired);
 
 
-if(hasDriversLicense && hasGoodVision && !isTired) { // inverted isTired to false
-  console.log('Sarah is able to drive');
+// if(hasDriversLicense && hasGoodVision && !isTired) { // inverted isTired to false
+//   console.log('Sarah is able to drive');
+// } else {
+//   console.log('Someone else should drive!');
+// }
+
+//Logical Operators Assignment
+
+// const speaksEnglish = true;
+// const populationUnderFiftyMill = false;
+// const anIsland = true;
+
+// if(speaksEnglish && populationUnderFiftyMill && anIsland) {
+//   console.log('You should live in Portugal :)');
+// } else {
+//   console.log('Portugal does not meet your criteria :(');
+// }
+
+// const country = 'Spain';
+// const language = 'Spanish';
+// const population = 25; // million
+// const isIsland = false;
+
+const country = 'USA';
+const language = 'English';
+const population = 40; // million
+const isIsland = false;
+
+if (language === 'English' && population < 50 && !isIsland) {
+  console.log(`You should live in ${country}`)
 } else {
-  console.log('Someone else should drive!');
+  console.log(`${country} is not for you`);
 }
-
-
-
-
-
-
 
 
 
