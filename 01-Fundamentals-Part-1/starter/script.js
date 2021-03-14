@@ -486,9 +486,9 @@ m tall.
 
 // The Conditional (Ternary) Operator Assignment
 
-const population = 22; // population in millions
+// const population = 22; // population in millions
 
-console.log(`Portugal's population is ${population < 33 ? 'below' : 'above'} average.`);
+// console.log(`Portugal's population is ${population < 33 ? 'below' : 'above'} average.`);
 
 
 
