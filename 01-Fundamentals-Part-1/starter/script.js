@@ -378,16 +378,16 @@ m tall.
 // const population = 25; // million
 // const isIsland = false;
 
-const country = 'USA';
-const language = 'English';
-const population = 40; // million
-const isIsland = false;
+// const country = 'USA';
+// const language = 'English';
+// const population = 40; // million
+// const isIsland = false;
 
-if (language === 'English' && population < 50 && !isIsland) {
-  console.log(`You should live in ${country}`)
-} else {
-  console.log(`${country} is not for you`);
-}
+// if (language === 'English' && population < 50 && !isIsland) {
+//   console.log(`You should live in ${country}`)
+// } else {
+//   console.log(`${country} is not for you`);
+// }
 
 
 
