@@ -20,13 +20,22 @@ Hints:
 const bill = 275;
 // const bill = 40;
 // const bill = 230;
-const tip = bill >= 50 && bill <= 300 ? (bill * 0.15) : (bill * 0.20);
-const totalBill = bill + tip;
+// const tip = bill >= 50 && bill <= 300 ? (bill * 0.15) : (bill * 0.20);
+// const totalBill = bill + tip;
 
-console.log(`The bill was ${bill}, the tip was ${bill >= 50 && bill <= 300 ? (bill * 0.15) : (bill * 0.20)} and the total value is ${totalBill}`)
+// console.log(`The bill was ${bill}, the tip was ${bill >= 50 && bill <= 300 ? (bill * 0.15) : (bill * 0.20)} and the total value is ${bill + tip}`)
 
-// Written slightly differently
+// // Written slightly differently
 
-console.log (`The bill was ${bill} and the tip was ${tip} and the total bill was ${totalBill}`);
+// console.log (`The bill was ${bill} and the tip was ${tip} and the total bill was ${totalBill}`);
 
 
+// Using if else statement to calculate tip practise
+if (bill >= 50 && bill <= 300) {
+  tip = 0.15 * bill;
+}
+ else {
+  tip = 0.2 * bill;
+ }
+
+console.log (`The bill was ${bill} and the tip was ${tip} and the total bill was ${bill + tip}`);
