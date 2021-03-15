@@ -1,3 +1,4 @@
+'use strict';
 /*
 // Activating Strict Mode lecture
 
@@ -11,7 +12,6 @@ if (hasDriversLicense) console.log('I can drive');
 
 // const interface = 'Audio'; // reserved keywords so strict will tell you in console
 // const private = 534;
-*/
 
 // --------FUNCTIONS LECTURE--------
 
@@ -40,3 +40,30 @@ const orangeJuice = fruitProcessor(2, 4);
 console.log(orangeJuice);
 
 // DRY - Dont Repeat Yourself
+
+
+// --------FUNCTIONS ASSIGNMENT--------
+
+function describeCountry(country, population, capitalCity) {
+  console.log(country, population, capitalCity);
+
+  const details = `${country} has ${population} million people and its capital city is ${capitalCity}.`;
+  return details
+}
+
+const england = describeCountry('England', 40, 'London');
+console.log(england);
+*/
+
+// Correct syntax for above code
+ function describeCountry(country, population, capitalCity) {
+ return `${country} has ${population} million people and its capital city is ${capitalCity}. `;
+ }
+
+ const descPortugal = describeCountry('Portugal', 10,
+ 'Lisbon');
+ const descGermany = describeCountry('Germany', 83,
+ 'Berlin');
+ const descFinland = describeCountry('Finland', 6,
+ 'Helsinki');
+ console.log(descPortugal, '\n', descGermany, '\n', descFinland);
