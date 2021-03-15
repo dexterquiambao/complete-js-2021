@@ -66,9 +66,9 @@ console.log(england);
  const descFinland = describeCountry('Finland', 6,
  'Helsinki');
  console.log(descPortugal, '\n', descGermany, '\n', descFinland);
-*/
 
-// --------FUNCTIONS DECLARATION VS EXPRESSIONS--------
+
+// --------FUNCTIONS DECLARATION VS EXPRESSIONS LECTURE--------
 
 // Function Decleration example
 function calcAge1(birthYear) {
@@ -85,6 +85,46 @@ const calcAge2 = function (birthYear) {
 
 const age2 = calcAge2(1991);
 console.log(age1, age2);
+*/
+
+// --------FUNCTIONS DECLARATION VS EXPRESSIONS ASSIGNMENT--------
+
+// Declaration
+function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+// Expression
+const percentageOfWorld2 = function (population) {
+  return (population / 7900) * 100;
+}
+
+
+const englandPercentage1 = percentageOfWorld1(40);
+const philippinesPercentage1 = percentageOfWorld1(90);
+const chinaPercentage1 = percentageOfWorld1(1441);
+
+console.log(englandPercentage1, philippinesPercentage1, chinaPercentage1);
+
+const englandPercentage2 = percentageOfWorld2(40);
+const philippinesPercentage2 = percentageOfWorld2(90);
+const chinaPercentage2 = percentageOfWorld2(1441);
+
+console.log(Number(englandPercentage2.toFixed(2)), philippinesPercentage2, chinaPercentage2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
