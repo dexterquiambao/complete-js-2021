@@ -53,7 +53,6 @@ function describeCountry(country, population, capitalCity) {
 
 const england = describeCountry('England', 40, 'London');
 console.log(england);
-*/
 
 // Correct syntax for above code
  function describeCountry(country, population, capitalCity) {
@@ -67,3 +66,33 @@ console.log(england);
  const descFinland = describeCountry('Finland', 6,
  'Helsinki');
  console.log(descPortugal, '\n', descGermany, '\n', descFinland);
+*/
+
+// --------FUNCTIONS DECLARATION VS EXPRESSIONS--------
+
+// Function Decleration example
+function calcAge1(birthYear) {
+  return 2021 - birthYear; // same as const age = 2021 - birthYear
+}
+
+const age1 = calcAge1(1987); // 1987 is the arguement passed into the parameter
+// console.log(age1);
+
+//Function Expression - Expressions produce values
+const calcAge2 = function (birthYear) {
+  return 2021 - birthYear;
+}
+
+const age2 = calcAge2(1991);
+console.log(age1, age2);
+
+
+
+
+
+
+
+
+
+
+
