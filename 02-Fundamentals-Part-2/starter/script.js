@@ -144,7 +144,7 @@ const englandPercentage3 = percentageOfWorld3(40);
 const philippinesPercentage3 = percentageOfWorld3(90);
 const chinaPercentage3 = percentageOfWorld3(1441);
 console.log(englandPercentage3, philippinesPercentage3, chinaPercentage3);
-*/
+
 
 // --------FUNCTIONS CALLING OTHER FUNCTIONS LECTURE--------
 
@@ -162,6 +162,30 @@ function fruitProcessor(apples, oranges) {
 }
 
 console.log(fruitProcessor(2, 3));
+*/
+
+// --------FUNCTIONS CALLING OTHER FUNCTIONS ASSIGNMENT--------
+
+function percentageOfWorld3(population) {
+  return (population / 7900)
+ * 100;
+}
+
+function describePopulation(country, population) {
+  const percentage = percentageOfWorld3(population).toFixed(2);
+  const description = `${country} has ${population}, which is about ${percentage}% of the world.`;
+  console.log(description);
+}
+
+describePopulation('England', 80);
+describePopulation('China', 1440);
+describePopulation('USA', 500);
+
+
+
+
+
+
 
 
 
