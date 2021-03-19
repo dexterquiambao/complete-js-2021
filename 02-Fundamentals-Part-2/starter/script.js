@@ -85,7 +85,7 @@ const calcAge2 = function (birthYear) {
 
 const age2 = calcAge2(1991);
 console.log(age1, age2);
-*/
+
 
 // --------FUNCTIONS DECLARATION VS EXPRESSIONS ASSIGNMENT--------
 
@@ -114,21 +114,37 @@ console.log(Number(englandPercentage2.toFixed(2)), philippinesPercentage2, china
 
 
 
+// --------ARROW FUNCTIONS LECTURE--------
+
+const calAge2 = function(birthYear) {
+  return 2021 - birthYear;
+}
+
+//Arrow function
+const calcAge3 = birthYear => 2021 - birthYear;
+const age3 = calcAge3(1987);
+console.log(age3);
+
+const yearsUntilRetirement = (birthYear, firstName) => {
+  const age = 2021 - birthYear;
+  const retirement = 65 - age;
+  // return retirement;
+  return `${firstName} retires in ${retirement} years.`
+}
+
+console.log(yearsUntilRetirement(1987, 'Dexter'));
+console.log(yearsUntilRetirement(1980, 'Robert'));
 
 
+// --------ARROW FUNCTIONS ASSIGNMENT--------
 
+const percentageOfWorld3 = population => (population / 7900) * 100;
 
-
-
-
-
-
-
-
-
-
-
-
+const englandPercentage3 = percentageOfWorld3(40);
+const philippinesPercentage3 = percentageOfWorld3(90);
+const chinaPercentage3 = percentageOfWorld3(1441);
+console.log(englandPercentage3, philippinesPercentage3, chinaPercentage3);
+*/
 
 
 
