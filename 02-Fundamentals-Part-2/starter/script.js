@@ -146,6 +146,22 @@ const chinaPercentage3 = percentageOfWorld3(1441);
 console.log(englandPercentage3, philippinesPercentage3, chinaPercentage3);
 */
 
+// --------FUNCTIONS CALLING OTHER FUNCTIONS LECTURE--------
+
+function cutFruitPieces(fruit) {
+  return fruit * 4;
+}
+
+function fruitProcessor(apples, oranges) {
+  const applePieces = cutFruitPieces(apples);
+  const orangePieces = cutFruitPieces(oranges);
+
+  console.log(applePieces, orangePieces);
+  const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges.`;
+  return juice;
+}
+
+console.log(fruitProcessor(2, 3));
 
 
 
