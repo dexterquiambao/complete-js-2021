@@ -162,7 +162,7 @@ function fruitProcessor(apples, oranges) {
 }
 
 console.log(fruitProcessor(2, 3));
-*/
+
 
 // --------FUNCTIONS CALLING OTHER FUNCTIONS ASSIGNMENT--------
 
@@ -180,10 +180,29 @@ function describePopulation(country, population) {
 describePopulation('England', 80);
 describePopulation('China', 1440);
 describePopulation('USA', 500);
+*/
 
+// --------REVIEWING FUNCTIONS LECTURE--------
 
+const calcAge = function (birthYear) {
+  return 2021 - birthYear;
+}
 
+const yearsUntilRetirement = function (birthYear, firstName) {
+  const age = calcAge(birthYear);
+  const retirement = 65 - age;
 
+  if(retirement > 0){
+  console.log(`${firstName} retires in ${retirement} years.`);
+  return retirement;
+  } else {
+  console.log(`${firstName} has already retired`);
+  return -1;
+  }
+}
+
+console.log(yearsUntilRetirement(1991, 'Dexter'));
+console.log(yearsUntilRetirement(1950, 'Robert'));
 
 
 
