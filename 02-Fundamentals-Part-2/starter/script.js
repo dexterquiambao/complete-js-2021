@@ -302,7 +302,7 @@ console.log(friends.includes(23));
 if (friends.includes('Peter')) {
   console.log(`You have a friend called Peter`);
 }
-*/
+
 
 
 // --------INTRODUCTIONS TO OBJECTS LECTURE--------
@@ -324,6 +324,55 @@ const dexter = { // {} = object literal syntax
   job: 'teacher',
   friends: ['Michael', 'Peter', 'Steven']
 }; // contains 5 key value pairs
+*/
+
+
+
+// --------DOT VS. BRACKET NOTATION LECTURE--------
+
+const dexter = { // {} = object literal syntax
+  firstName: 'Dexter',
+  lastName: 'Quiambao',
+  age: 2021 - 1987,
+  job: 'coder',
+  friends: ['Michael', 'Peter', 'Steven']
+}; // contains 5 key value pairs
+
+console.log(dexter);
+console.log(dexter.firstName);
+console.log(dexter['lastName']);
+
+const nameKey = 'Name';
+console.log(dexter['first' + nameKey]); // everything with name in object
+console.log(dexter['last' + nameKey]);
+
+const interesedIn = prompt('What do you want to know about Dexter? Choose between firstName, lastName, age, job and friends');
+console.log(interesedIn);
+
+console.log(dexter.interesedIn); // result is undefined because it is not a property inside the 'dexter' object
+console.log(dexter[interesedIn]);
+
+if(dexter[interesedIn]) {
+  console.log(dexter[interesedIn]);
+} else {
+  console.log('Wrong selections. Choose between firstName, lastName, age, job and friends');
+}
+
+
+dexter.location = 'London';
+dexter['twitter'] = '@dexterrr';
+console.log(dexter); // adds property to 'dexter' value
+
+
+
+
+
+
+
+
+
+
+
 
 
 
