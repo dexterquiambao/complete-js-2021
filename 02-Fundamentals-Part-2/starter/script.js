@@ -248,7 +248,7 @@ const age3 = calcAge(years[years.length - 1]);
 console.log(age1, age2, age3);
 
 const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])]
-*/
+
 
 // --------INTRODUCTION TO ARRAYS ASSIGNMENT--------
 
@@ -271,15 +271,37 @@ const percentages = [
 ];
 
 console.log(percentages);
+*/
 
+// --------BASIC ARRAY OPERATIONS(METHODS) LECTURE--------
 
+const friends = ['Michael', 'Steven', 'Peter']; // Literal syntax
 
+// Add Elements
+const newLength = friends.push('James'); // push arguement into frineds array
+console.log(friends);
+console.log(newLength);
 
+friends.unshift('John'); // unshift methods moves John to index 0 in the array
+console.log(friends);
 
+// Remove Elements
+const popped = friends.pop(); // Removes Last Element
+console.log(friends);
+console.log(popped); // shows that James has been removed from the array
 
+friends.shift(); // Removes first element
+console.log(friends);
 
+console.log(friends.indexOf('Steven')); // should be index 1l
+console.log(friends.indexOf('Bob')); // shows -1 as it does not exist
 
+console.log(friends.includes('Steven')); // ES6 Function like Ruby// boolean that uses strict equality
+console.log(friends.includes(23));
 
+if (friends.includes('Peter')) {
+  console.log(`You have a friend called Peter`);
+}
 
 
 
