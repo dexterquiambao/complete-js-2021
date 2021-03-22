@@ -206,6 +206,75 @@ console.log(yearsUntilRetirement(1950, 'James'));
 
 */
 
+// --------INTRODUCTION TO ARRAYS LECTURE--------
+
+const friend1 = 'Michael';
+const friend2 = 'Steven';
+const friend3 = 'Peter'
+
+const friends = ['Michael', 'Steven', 'Peter']; // Literal syntax
+console.log(friends);
+
+// Different way to use arrays
+const someYears = new Array(1987, 1984, 2008, 2020);
+
+console.log(friends[0]);
+console.log(friends[1]);
+console.log(friends[2]);
+
+console.log(friends.length);
+console.log(friends[friends.length - 1]); // to find the last element
+
+friends[2] = 'James'; // replacing a value in the array
+console.log(friends); // values in an array even using 'const' can be mutated
+
+const firstName = 'Dexter';
+const dexter = [firstName, 'Quiambao', 2021 - 1987, friends]; // adding an array inside another array
+console.log(dexter);
+console.log(dexter[3][1]); // accessing an array inside another array
+
+
+
+// Exercise
+
+const calcAge = function (birthYear) {
+  return 2021 - birthYear;
+}
+
+const years = [1990, 1950, 1987, 2002];
+
+const age1 = calcAge(years[0]); // an expression
+const age2 = calcAge(years[1]);
+const age3 = calcAge(years[years.length - 1]);
+console.log(age1, age2, age3);
+
+const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

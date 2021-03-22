@@ -47,7 +47,7 @@ const winner = function (avgDolphins, avgKoalas) {
 }
 
 winner(scoreDolphins, scoreKoalas); // function independent of params, any values can be used
-*/
+
 // Data 2
 
 const calcAverage = (x, y, z) => (x + y + z) / 3; // x, y + z used as placeholders for score values
@@ -68,7 +68,7 @@ const winner = function (avgDolphins, avgKoalas) {
 }
 
 winner(scoreDolphins, scoreKoalas);
-
+*/
 
 
 
