@@ -328,6 +328,7 @@ const dexter = { // {} = object literal syntax
 
 
 
+
 // --------DOT VS. BRACKET NOTATION LECTURE--------
 
 const dexter = { // {} = object literal syntax
@@ -365,6 +366,10 @@ console.log(dexter); // adds property to 'dexter' value
 
 
 
+// --------DOT VS. BRACKET NOTATION CHALLENGE--------
+// "Dexter has 3 friends, and his best friend is called Michael"
+
+console.log(`${dexter.firstName} has ${dexter.friends.length} friends, and his best friend is called ${dexter.friends[0]}.`);
 
 
 
