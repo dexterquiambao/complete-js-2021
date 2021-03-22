@@ -180,7 +180,7 @@ function describePopulation(country, population) {
 describePopulation('England', 80);
 describePopulation('China', 1440);
 describePopulation('USA', 500);
-*/
+
 
 // --------REVIEWING FUNCTIONS LECTURE--------
 
@@ -204,7 +204,7 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 console.log(yearsUntilRetirement(1991, 'Dexter'));
 console.log(yearsUntilRetirement(1950, 'James'));
 
-
+*/
 
 
 
