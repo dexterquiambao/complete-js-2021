@@ -18,7 +18,7 @@ Hint: Remember that an array needs a value in each position, and that value can
 actually be the returned value of a function! So you can just call a function as array
 values (so don't store the tip values in separate variables first, but right in the new
 array) �
-*/
+
 
 const calcTip = function (bill) {
   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
@@ -43,3 +43,4 @@ console.log(bills, tips);
 
 // Test Code
  console.log(`The totals for the first bill are £${totals[0]}, the total for the 2nd bill is £${totals[1]} and the 3rd bill total is £${totals[2]}.`);
+*/

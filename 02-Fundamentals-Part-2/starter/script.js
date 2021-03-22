@@ -271,7 +271,7 @@ const percentages = [
 ];
 
 console.log(percentages);
-*/
+
 
 // --------BASIC ARRAY OPERATIONS(METHODS) LECTURE--------
 
@@ -302,12 +302,28 @@ console.log(friends.includes(23));
 if (friends.includes('Peter')) {
   console.log(`You have a friend called Peter`);
 }
+*/
 
 
+// --------INTRODUCTIONS TO OBJECTS LECTURE--------
 
+const dexterArray = [
+  'Dexter',
+  'Quiambao',
+  2021 - 1987,
+  'developer',
+  ['Michael', 'Peter', 'Steven']
+];
 
+// key value pairs
 
-
+const dexter = { // {} = object literal syntax
+  firstName: 'Dexter',
+  lastName: 'Quiambao',
+  age: 2021 - 1987,
+  job: 'teacher',
+  friends: ['Michael', 'Peter', 'Steven']
+}; // contains 5 key value pairs
 
 
 
