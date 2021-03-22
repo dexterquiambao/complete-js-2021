@@ -204,7 +204,6 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 console.log(yearsUntilRetirement(1991, 'Dexter'));
 console.log(yearsUntilRetirement(1950, 'James'));
 
-*/
 
 // --------INTRODUCTION TO ARRAYS LECTURE--------
 
@@ -249,15 +248,29 @@ const age3 = calcAge(years[years.length - 1]);
 console.log(age1, age2, age3);
 
 const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])]
+*/
 
+// --------INTRODUCTION TO ARRAYS ASSIGNMENT--------
 
+const population = [40, 20, 108, 8];
 
+console.log(population);
+console.log(population.length);
+console.log(population.length === 4);
 
+function percentageOfWorld1(population) {
+  return (population / 7900)
+ * 100;
+}
 
+const percentages = [
+  percentageOfWorld1(population[0]),
+  percentageOfWorld1(population[1]),
+  percentageOfWorld1(population[2]),
+  percentageOfWorld1(population[3]),
+];
 
-
-
-
+console.log(percentages);
 
 
 
