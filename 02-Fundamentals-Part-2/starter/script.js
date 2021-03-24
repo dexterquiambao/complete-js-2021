@@ -324,7 +324,7 @@ const dexter = { // {} = object literal syntax
   job: 'teacher',
   friends: ['Michael', 'Peter', 'Steven']
 }; // contains 5 key value pairs
-*/
+
 
 
 
@@ -369,9 +369,9 @@ console.log(dexter); // adds property to 'dexter' value
 // --------DOT VS. BRACKET NOTATION CHALLENGE--------
 // "Dexter has 3 friends, and his best friend is called Michael"
 
-console.log(`${dexter.firstName} has ${dexter.friends.length} friends, and his best friend is called ${dexter.friends[0]}.`);
+console.log(`${dexter.firstName} has ${dexter.friends.length} friends, and his best friend is called ${dexter.friends[0]}.`); // dexter.friends.length works because of member access operator precedance
 
-
+*/
 
 
 
